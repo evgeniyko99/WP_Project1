@@ -1,0 +1,36 @@
+body{
+background-image: url('wall3.png');
+padding: 0px;
+margin: 0px;
+}
+
+#leftmenu{
+width: 15%;
+height: 100%;
+background-color: lightgrey;
+border: 4px solid grey;
+}
+
+#upperleftmenu{
+height: 65%;
+border-bottom: 4px solid grey;
+}
+
+
+#upperleftmenu img{
+max-width: 100%;
+max-height: 100%;
+height: 100%;
+}
+
+table{
+width: 100%;
+height: 35%;
+text-align: center;
+}
+
+.bottomtable{
+border-bottom: 4px solid grey;
+}
+
+
