@@ -1,7 +1,7 @@
 body{
 background-image: url('walltorch.png');
-padding: 0px;
 margin: 0px;
+padding: 0px;
 }
 
 #leftmenu{
@@ -9,13 +9,16 @@ width: 15%;
 height: 100%;
 background-color: lightgrey;
 border: 4px solid grey;
+float: left;
+vertical-align: top;
+margin: auto;
+
 }
 
 #upperleftmenu{
 height: 65%;
 border-bottom: 4px solid grey;
 }
-
 
 #upperleftmenu img{
 max-width: 100%;
@@ -33,4 +36,38 @@ text-align: center;
 border-bottom: 4px solid grey;
 }
 
+#righttext{
+background-image: url('wall.png');
 
+width: 70%;
+height: 80%;
+border: 4px solid grey;
+overflow: hidden;
+margin: auto;
+margin-top: 5%;
+}
+
+p{
+color: #d43e0d;
+margin-left: 20px;
+margin-right: 20px;
+font-family:courier;
+font-size: 22;
+font-weight: bold;
+}
+
+h3{
+text-align: center;
+}
+
+main{
+padding-top: 1px;
+}
+
+a.link:hover{ 
+background-color: green;
+color: darkred;
+}
+a.link{
+color: lightblue;
+}
